@@ -1,0 +1,11 @@
+.hr-wsw  {
+    margin: 0;
+    border: 0;
+    height:15px;
+    background: #333; /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(10%, #000000), color-stop(10%, #2eff17), color-stop(24%, #42ff17), color-stop(24%,#34495e), color-stop(42%,#34495e), color-stop(42%,#207cca), color-stop(70%,#207cca), color-stop(70%,#207cca), color-stop(70%,#34495e), color-stop(100%,#34495e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #000000 0%, #000000 10%, #42ff17 10%, #42ff17 24%,#34495e 24%,#34495e 42%,#207cca 42%,#207cca 70%,#207cca 70%,#34495e 70%,#34495e 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -moz-linear-gradient(left, #000000 0%, #000000 9%, #42ff17 10%, #42ff17 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%);
+    background-image: -o-linear-gradient(left, #000000 0%, #000000 9%, #42ff17 10%, #42ff17 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%);
+    background-image: linear-gradient(left, #000000 0%, #000000 9%, #42ff17 10%, #42ff17 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%); /* Chrome10+,Safari5.1+ */
+}
